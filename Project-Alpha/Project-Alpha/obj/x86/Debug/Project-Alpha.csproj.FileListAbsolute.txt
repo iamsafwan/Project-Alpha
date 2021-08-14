@@ -1,0 +1,298 @@
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\App.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\Page.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\_Colors.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\_FontSizes.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\_Thickness.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\TextBlock.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\MainPage.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\ShellPage.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Project_Alpha.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Project_Alpha.exe
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Project_Alpha.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\resources.pri
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\AppxManifest.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Core\AppxManifest.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Core\Project_Alpha.exe
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Project-Alpha.build.appxrecipe
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactions.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactivity.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Newtonsoft.Json.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Runtime.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Project-Alpha.Core.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Project-Alpha.Core.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Project-Alpha.csproj.AssemblyReference.cache
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\App.g.i.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\App.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.g.i.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.g.i.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\XamlTypeInfo.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\App.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\Page.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Colors.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_FontSizes.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Thickness.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\TextBlock.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\App.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\Page.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Colors.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_FontSizes.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Thickness.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\TextBlock.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\XamlSaveStateFile.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Project-Alpha.csproj.CoreCompileInputs.cache
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Project-Alpha.csproj.CopyComplete
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Project_Alpha.exe
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Project_Alpha.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\ResourceHandlingTask.state
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\priconfig.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\priconfig.xml.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\unfiltered.layout.resfiles
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\filtered.layout.resfiles
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\filtered.layout.resfiles.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\excluded.layout.resfiles
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\excluded.layout.resfiles.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\resources.resfiles
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\resources.resfiles.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\pri.resfiles
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\pri.resfiles.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\qualifiers.txt
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\qualifiers.txt.intermediate
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\ProjectArchitectures.txt
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout\Microsoft.Toolkit.Uwp.UI.Controls.Layout.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.Core.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.Core.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.UWP.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.UWP.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.Json.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Text.Encodings.Web.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Text.Json.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\ColorCode.UWP.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.pri.xml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.Binder.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.FileExtensions.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.Json.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Primitives.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.System.Text.Encodings.Web.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.System.Text.Json.SR.resw
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\Records.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.g.i.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\WhatsNewDialog.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.g.i.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424707200000000.json
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout\Microsoft.Toolkit.Uwp.UI.Controls.Layout.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\App.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\Page.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\_Colors.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\_FontSizes.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\_Thickness.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Styles\TextBlock.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\Records.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\MainPage.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\ShellPage.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\WhatsNewDialog.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Project_Alpha.xr.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Project_Alpha.exe
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Project_Alpha.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\resources.pri
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\AppxManifest.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Core\AppxManifest.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Core\Project_Alpha.exe
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Project-Alpha.build.appxrecipe
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.Core.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.Core.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.UWP.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\ColorCode.UWP.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.Binder.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Configuration.Json.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Extensions.Primitives.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactions.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactions.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactivity.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Xaml.Interactivity.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Newtonsoft.Json.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Runtime.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Text.Encodings.Web.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\System.Text.Json.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Graphics.Canvas.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.Graphics.Canvas.winmd
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Project-Alpha.Core.dll
+G:\project-alpha\Project-Alpha\Project-Alpha\bin\x86\Debug\Project-Alpha.Core.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Project-Alpha.csproj.AssemblyReference.cache
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\App.g.i.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\App.g.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.g.i.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.g.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.g.i.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.g.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.g.i.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.g.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.g.i.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.g.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\XamlTypeInfo.g.cs
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\App.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\Page.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Colors.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_FontSizes.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Thickness.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\TextBlock.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.xaml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\App.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\Page.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Colors.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_FontSizes.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\_Thickness.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Styles\TextBlock.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\Records.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\MainPage.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\ShellPage.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\WhatsNewDialog.xbf
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\XamlSaveStateFile.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Project-Alpha.csproj.CoreCompileInputs.cache
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Project-Alpha.csproj.CopyComplete
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\ColorCode.UWP.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Core.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Input.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Layout.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Media.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.UI.Xaml.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Xaml.Interactions.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Xaml.Interactivity.pri.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Project_Alpha.exe
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Project_Alpha.pdb
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\ResourceHandlingTask.state
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.Binder.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.FileExtensions.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Configuration.Json.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.Microsoft.Extensions.Primitives.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.System.Text.Encodings.Web.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\FxResources.System.Text.Json.SR.resw
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\priconfig.xml
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\priconfig.xml.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\unfiltered.layout.resfiles
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\filtered.layout.resfiles
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\filtered.layout.resfiles.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\excluded.layout.resfiles
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\excluded.layout.resfiles.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\resources.resfiles
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\resources.resfiles.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\pri.resfiles
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\pri.resfiles.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\qualifiers.txt
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\qualifiers.txt.intermediate
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\ProjectArchitectures.txt
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
+G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424707200000000.json
