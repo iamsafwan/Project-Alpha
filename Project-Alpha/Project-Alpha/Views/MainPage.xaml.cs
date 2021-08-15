@@ -18,13 +18,21 @@ using Windows.UI.Xaml.Media.Imaging;
 using Windows.Storage;
 using System.IO;
 using Windows.Storage.Pickers;
+using Windows.UI.Core;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Automation.Peers;
 
 namespace Project_Alpha.Views
 {
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
         // ShellPageInfoServices UserInfo = new ShellPageInfoServices(); ; for taking binding approach
-
+        public enum NotifyType
+        {
+            StatusMessage,
+            ErrorMessage
+        };
         public MainPage()
         {
             this.InitializeComponent();
@@ -36,57 +44,110 @@ namespace Project_Alpha.Views
 
         public async Task FetchUserInfo()
         {
+            try {
+                IReadOnlyList<User> users = await User.FindAllAsync();
 
-            IReadOnlyList<User> users = await User.FindAllAsync();
-
-            int userNumber = 1;
-            foreach (User user in users)
-            {
-                string displayName = (string)await user.GetPropertyAsync(KnownUserProperties.DisplayName);
-                Displayname.Text = displayName;
-                // Choosing a generic name if no actual name.
-                if (String.IsNullOrEmpty(displayName))
+                int userNumber = 1;
+                foreach (User user in users)
                 {
-
-                    displayName = "User #" + userNumber.ToString();
-                    userNumber++;
-                 
-                    string a = (string)await user.GetPropertyAsync(KnownUserProperties.FirstName);
-                    string b = (string)await user.GetPropertyAsync(KnownUserProperties.LastName);
-                  
-                    string name = string.Format("{0} {1}", a, b).ToString();
-                 
-                    Displayname.Text = name;
-                    if (String.IsNullOrEmpty(name))
+                    string displayName = (string)await user.GetPropertyAsync(KnownUserProperties.DisplayName);
+                    Displayname.Text = displayName;
+                    // Choosing a generic name if no actual name.
+                    if (String.IsNullOrEmpty(displayName))
                     {
-                      //alternative to fetch username
-                        string[] separatingStrings = { "\\" };
 
-                        string[] words = WindowsIdentity.GetCurrent().Name.Split(separatingStrings, System.StringSplitOptions.RemoveEmptyEntries);
-                        Displayname.Text = words[1];
+                        displayName = "User #" + userNumber.ToString();
+                        userNumber++;
 
+                        string a = (string)await user.GetPropertyAsync(KnownUserProperties.FirstName);
+                        string b = (string)await user.GetPropertyAsync(KnownUserProperties.LastName);
+
+                        string name = string.Format("{0} {1}", a, b).ToString();
+
+                        Displayname.Text = name;
+                        if (String.IsNullOrEmpty(name))
+                        {
+                            //alternative to fetch username
+                            string[] separatingStrings = { "\\" };
+
+                            string[] words = WindowsIdentity.GetCurrent().Name.Split(separatingStrings, System.StringSplitOptions.RemoveEmptyEntries);
+                            Displayname.Text = words[1];
+
+                        }
                     }
+
+                    IRandomAccessStreamReference streamReference = await user.GetPictureAsync(UserPictureSize.Size1080x1080);
+
+                    if (streamReference != null)
+                    {
+                        IRandomAccessStream stream = await streamReference.OpenReadAsync();
+                        BitmapImage Image = new BitmapImage();
+                        Image.SetSource(stream);
+                        UserPicture.ProfilePicture = Image;
+                        //ss.Source = Image;
+                        //Debug.WriteLine(bitmapImage.UriSource.AbsoluteUri);
+                        //UserInfo.Location = bitmapImage.UriSource.ToString();
+                    }
+
+
+
                 }
 
-                IRandomAccessStreamReference streamReference = await user.GetPictureAsync(UserPictureSize.Size1080x1080);
-               
-                if (streamReference != null)
-                {
-                    IRandomAccessStream stream = await streamReference.OpenReadAsync();
-                    BitmapImage Image = new BitmapImage();
-                    Image.SetSource(stream);
-                    UserPicture.ProfilePicture = Image;
-                    //ss.Source = Image;
-                    //Debug.WriteLine(bitmapImage.UriSource.AbsoluteUri);
-                    //UserInfo.Location = bitmapImage.UriSource.ToString();
-                }
 
-                
 
             }
+            catch (Exception ex)
+            {
+                NotifyUser(ex.Message, NotifyType.ErrorMessage);
+            }
+        }
+        public void NotifyUser(string strMessage, NotifyType type)
+        {
+            // If called from the UI thread, then update immediately.
+            // Otherwise, schedule a task on the UI thread to perform the update.
+            if (Dispatcher.HasThreadAccess)
+            {
+                UpdateStatus(strMessage, type);
+            }
+            else
+            {
+                var task = Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () => UpdateStatus(strMessage, type));
+            }
+        }
 
+        private void UpdateStatus(string strMessage, NotifyType type)
+        {
+            switch (type)
+            {
+                case NotifyType.StatusMessage:
+                    StatusBorder.Background = new SolidColorBrush(Windows.UI.Colors.Green);
+                    break;
+                case NotifyType.ErrorMessage:
+                    StatusBorder.Background = new SolidColorBrush(Windows.UI.Colors.Red);
+                    break;
+            }
 
+            StatusBlock.Text = strMessage;
 
+            // Collapse the StatusBlock if it has no text to conserve real estate.
+            StatusBorder.Visibility = (StatusBlock.Text != String.Empty) ? Visibility.Visible : Visibility.Collapsed;
+            if (StatusBlock.Text != String.Empty)
+            {
+                StatusBorder.Visibility = Visibility.Visible;
+                StatusPanel.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                StatusBorder.Visibility = Visibility.Collapsed;
+                StatusPanel.Visibility = Visibility.Collapsed;
+            }
+
+            // Raise an event if necessary to enable a screen reader to announce the status update.
+            var peer = FrameworkElementAutomationPeer.FromElement(StatusBlock);
+            if (peer != null)
+            {
+                peer.RaiseAutomationEvent(AutomationEvents.LiveRegionChanged);
+            }
         }
 
 

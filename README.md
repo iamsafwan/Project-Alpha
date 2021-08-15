@@ -5,13 +5,13 @@ Project Alpha focuses on **Password Management** locally while ensuring user pri
 It is a concept, functioning and the feasibility of the project will be determined during the project development.
 
 
-## Current Version 0.0.7
+## Current Version 0.0.8
 
 ### Completed:
-- [x] Established a baseline
-- [x] Added Home and Records page
-- [x] Added basic structure to pages
-- [x] Added Global Error Handling
-- [x] Added Visual Assets
-- [x] Added What's New Dialog
-- [x] Added User Profile Information
+- [x] Added Basic Error Notify
+- [x] Added Stackable panel
+- [x] Added Basic Elements in stackable panel*
+- [x] Added Basic blades*
+- [x] Stackable panel add horizonal scroll
+
+- *Needs bug fixes

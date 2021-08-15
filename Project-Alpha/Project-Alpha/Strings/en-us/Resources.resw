@@ -134,17 +134,19 @@
     <comment>Navigation view item name for Records</comment>
   </data>
   <data name="WhatsNew_Body.Text" xml:space="preserve">
-    <value>- Added Visual Assets
-- Added What's New Dialog
-- Added Home Page
-- Added Record Page
-- Added Global Error Handling
-- Added User Profile Information
+    <value>- Added Basic error notify
+- Added Stackable panel
+- Added Basic Elements in stackable panel*
+- Added Basic blades*
+- Stackable panel add horizonal scroll
+
+*bug fix required
+
 </value>
     <comment>What's new prompt message body</comment>
   </data>
   <data name="WhatsNewDialog.Title" xml:space="preserve">
-    <value>&lt;Bold&gt;What's new in v0.0.7!&lt;/Bold&gt;</value>
+    <value>&lt;Bold&gt;What's new in v0.0.8!&lt;/Bold&gt;</value>
     <comment>What's new prompt message title</comment>
   </data>
   <data name="WhatsNewDialog.PrimaryButtonText" xml:space="preserve">

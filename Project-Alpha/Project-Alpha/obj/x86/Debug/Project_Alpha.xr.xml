@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="ActualWidth" />
+    <RootPropertyPathName Name="IsOpen" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="Resources" />
@@ -12,6 +16,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Style" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Resources" />
       <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -20,6 +25,7 @@
     <RootType FullName="Windows.UI.Xaml.Setter">
       <RootProperty Name="Property" />
       <RootProperty Name="Value" />
+      <RootProperty Name="Target" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
@@ -41,10 +47,14 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="MaxWidth" />
       <RootProperty Name="Name" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.FrameworkElement">
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="MaxHeight" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
@@ -59,15 +69,109 @@
       <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Project_Alpha.Views.Records" />
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.BladeItem">
+      <RootProperty Name="IsOpen" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="TitleBarVisibility" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TitleBarBackground" />
+      <RootProperty Name="CloseButtonForeground" />
+      <RootProperty Name="HeaderTemplate" />
+      <RootProperty Name="CloseButtonBackground" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.HeaderedContentControl">
+      <RootProperty Name="Header" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetAlignTopWithPanel" />
+      <RootMethod Name="SetAlignTopWithPanel" />
+      <RootMethod Name="GetAbove" />
+      <RootMethod Name="SetAbove" />
+      <RootMethod Name="GetAlignRightWithPanel" />
+      <RootMethod Name="SetAlignRightWithPanel" />
+      <RootMethod Name="GetAlignLeftWithPanel" />
+      <RootMethod Name="SetAlignLeftWithPanel" />
+      <RootMethod Name="GetAlignBottomWithPanel" />
+      <RootMethod Name="SetAlignBottomWithPanel" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+      <RootMethod Name="GetAlignHorizontalCenterWithPanel" />
+      <RootMethod Name="SetAlignHorizontalCenterWithPanel" />
+      <RootMethod Name="GetAlignVerticalCenterWithPanel" />
+      <RootMethod Name="SetAlignVerticalCenterWithPanel" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame">
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootProperty Name="VerticalScrollMode" />
+      <RootProperty Name="VerticalScrollBarVisibility" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetLiveSetting" />
+      <RootMethod Name="SetLiveSetting" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PersonPicture">
       <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Orientation" />
-      <RootProperty Name="Children" />
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Microsoft.Toolkit.Uwp.UI.Controls.BladeView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="BladeMode" />
+      <RootProperty Name="AutoCollapseCountThreshold" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ToggleButton">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="IsChecked" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.RotateTransform">
       <RootProperty Name="Angle" />
@@ -103,11 +207,6 @@
       <RootProperty Name="DefaultHeader" />
       <RootProperty Name="DefaultHeaderTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Project_Alpha.Views.ShellPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">
       <RootProperty Name="TitleTemplate" />
@@ -117,9 +216,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Source" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
-      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Project_Alpha.Views.WhatsNewDialog" />
   </Roots.RootTypes>

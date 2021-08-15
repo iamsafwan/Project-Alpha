@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fg2u/EjoOLrQlEfdRCjQxX7op5UoylLDIh93Yn8LLf42nNo4qEdffO8M/b3GRXwN3SiYxD+YD5q4Ufv6w6VIAg==",
+  "dgSpecHash": "I8LCK1GWebY9lwGpgtdXyq3EHh4Uc5QAiDelmAXleBMFYvYyOjM9xU5BhexQWJKW9WrBwsXtDH4Wi7bmViT4wg==",
   "success": true,
-  "projectFilePath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
+  "projectFilePath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tf\\.nuget\\packages\\colorcode.core\\2.0.6\\colorcode.core.2.0.6.nupkg.sha512",
     "C:\\Users\\tf\\.nuget\\packages\\colorcode.uwp\\2.0.6\\colorcode.uwp.2.0.6.nupkg.sha512",

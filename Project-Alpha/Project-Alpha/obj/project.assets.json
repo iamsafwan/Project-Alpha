@@ -12288,11 +12288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
+      "projectUniqueName": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
       "projectName": "Project-Alpha",
-      "projectPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
+      "projectPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
       "packagesPath": "C:\\Users\\tf\\.nuget\\packages\\",
-      "outputPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\obj\\",
+      "outputPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -12316,8 +12316,8 @@
       "frameworks": {
         "uap10.0.18362": {
           "projectReferences": {
-            "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj": {
-              "projectPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj"
+            "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj": {
+              "projectPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj"
             }
           }
         }

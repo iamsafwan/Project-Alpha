@@ -1,1 +1,1 @@
-G:\project-alpha\Project-Alpha\Project-Alpha\Project-Alpha.csproj;x86
+G:\project-alpha local\Project-Alpha\Project-Alpha\Project-Alpha.csproj;x86

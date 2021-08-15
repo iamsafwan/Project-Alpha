@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj": {}
+    "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj": {}
   },
   "projects": {
-    "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj": {
+    "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj",
+        "projectUniqueName": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj",
         "projectName": "Project-Alpha.Core",
-        "projectPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj",
+        "projectPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj",
         "packagesPath": "C:\\Users\\tf\\.nuget\\packages\\",
-        "outputPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\obj\\",
+        "outputPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -91,14 +91,14 @@
         }
       }
     },
-    "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj": {
+    "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
+        "projectUniqueName": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
         "projectName": "Project-Alpha",
-        "projectPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
+        "projectPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\Project-Alpha.csproj",
         "packagesPath": "C:\\Users\\tf\\.nuget\\packages\\",
-        "outputPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha\\obj\\",
+        "outputPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -122,8 +122,8 @@
         "frameworks": {
           "uap10.0.18362": {
             "projectReferences": {
-              "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj": {
-                "projectPath": "G:\\project-alpha\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj"
+              "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj": {
+                "projectPath": "G:\\project-alpha local\\Project-Alpha\\Project-Alpha.Core\\Project-Alpha.Core.csproj"
               }
             }
           }

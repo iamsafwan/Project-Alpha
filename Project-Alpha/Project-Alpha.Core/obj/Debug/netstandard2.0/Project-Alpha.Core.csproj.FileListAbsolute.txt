@@ -1,17 +1,9 @@
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\bin\Debug\netstandard2.0\Project-Alpha.Core.deps.json
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\bin\Debug\netstandard2.0\Project-Alpha.Core.dll
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\bin\Debug\netstandard2.0\Project-Alpha.Core.pdb
+G:\project-alpha local\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.csproj.AssemblyReference.cache
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.AssemblyInfoInputs.cache
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.AssemblyInfo.cs
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.csproj.CoreCompileInputs.cache
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.dll
 G:\project-alpha local\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.pdb
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\bin\Debug\netstandard2.0\Project-Alpha.Core.deps.json
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\bin\Debug\netstandard2.0\Project-Alpha.Core.dll
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\bin\Debug\netstandard2.0\Project-Alpha.Core.pdb
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.csproj.AssemblyReference.cache
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.AssemblyInfoInputs.cache
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.AssemblyInfo.cs
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.csproj.CoreCompileInputs.cache
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.dll
-G:\project-alpha\Project-Alpha\Project-Alpha.Core\obj\Debug\netstandard2.0\Project-Alpha.Core.pdb
