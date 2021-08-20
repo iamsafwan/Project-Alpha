@@ -74,6 +74,6 @@ namespace Project_Alpha
             titleBar.ButtonInactiveBackgroundColor = Colors.Transparent;
         }
 
-      
+        
     }
 }
