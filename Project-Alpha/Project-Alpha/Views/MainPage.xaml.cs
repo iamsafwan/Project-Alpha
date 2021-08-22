@@ -165,5 +165,13 @@ namespace Project_Alpha.Views
         }
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
+        private void BladeThreeSave_Click(object sender, RoutedEventArgs e)
+        {
+
+            BladeThreeSaveButton.IsChecked = false;
+            BladeThreeSaveButton.IsChecked = true;
+
+        }
     }
 }

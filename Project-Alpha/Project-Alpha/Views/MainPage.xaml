@@ -11,9 +11,9 @@
       Style="{StaticResource PageStyle}"
       Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}"
       mc:Ignorable="d">
-  
+
     <Page.Resources>
-        
+
         <Style x:Key="BladeStyle"
                TargetType="controls:BladeItem">
             <Setter Property="Header"
@@ -32,7 +32,7 @@
             <RowDefinition Height="125" />
             <RowDefinition Height="5" />
             <RowDefinition Height="*" />
-           
+
         </Grid.RowDefinitions>
         <Grid Grid.Row="0"
               Grid.Column="0"
@@ -94,7 +94,7 @@
         <Grid Grid.Row="2"
               Grid.Column="0"
               Grid.ColumnSpan="3">
-           
+
             <RelativePanel>
 
                 <StackPanel x:Name="QuickAccessPanel"
@@ -115,9 +115,8 @@
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"
                                         BladeMode="Normal"
-                                       
                                         AutoCollapseCountThreshold="4">
-                      
+
 
                         <!-- background tinkted with acrylic -->
                         <controls:BladeItem x:Name="FirstBlade"
@@ -133,25 +132,29 @@
                                 <StackPanel Margin="24">
 
 
-                                    <TextBlock HorizontalAlignment="Center" Text="What would you like to do?"
+                                    <TextBlock HorizontalAlignment="Center"
+                                               Text="What would you like to do?"
                                                FontWeight="Bold"
                                                TextWrapping="WrapWholeWords" />
-                                    <ToggleButton  HorizontalAlignment="Center" Margin="0,24,0,0"
-                                                  Content="Generate Password"
-                                                  IsChecked="{Binding IsOpen, Mode=TwoWay, ElementName=SecondBlade}" />
-                                    <ToggleButton  HorizontalAlignment="Center" Margin="0,24,0,0"
-                                                  Content="Search for Password"
-                                                  IsChecked="{Binding IsOpen, Mode=TwoWay, ElementName=ThirdBlade}" />
-                                    <ToggleButton  HorizontalAlignment="Center" Margin="0,24,0,0"
-                                                  Content="Store Credentials"
-                                                  IsChecked="{Binding IsOpen, Mode=TwoWay, ElementName=FourthBlade}" />
+                                    <ToggleButton  HorizontalAlignment="Center"
+                                                   Margin="0,45,0,0"
+                                                   Content="Generate Password"
+                                                   IsChecked="{Binding IsOpen, Mode=TwoWay, ElementName=SecondBlade}" />
+                                    <ToggleButton  HorizontalAlignment="Center"
+                                                   Margin="0,45,0,0"
+                                                   Content="Search for Password"
+                                                   IsChecked="{Binding IsOpen, Mode=TwoWay, ElementName=ThirdBlade}" />
+                                    <ToggleButton  HorizontalAlignment="Center"
+                                                   Margin="0,45,0,0"
+                                                   Content="Store Credentials"
+                                                   IsChecked="{Binding IsOpen, Mode=TwoWay, ElementName=FourthBlade}" />
                                     <!--<Button  x:Name="AddBlade"
                                              Margin="0,24,0,0"
                                              Content="Add Blade" />-->
                                 </StackPanel>
                             </ScrollViewer>
                         </controls:BladeItem>
-                        
+
                         <controls:BladeItem x:Name="SecondBlade"
                                             Header="Generate Password"
                                             IsOpen="False"
@@ -160,14 +163,19 @@
                                             BorderThickness="1"
                                             Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}"
                                             Style="{StaticResource BladeStyle}">
+                            <StackPanel Name="BladeFirst"
+                                        Orientation="Vertical">
+                                <TextBox Text="Password"
+                                         HorizontalAlignment="Center" Margin="0,45,0,0"></TextBox>
 
-                           
-                            
-                            <TextBlock Margin="24"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       Style="{StaticResource SubtitleTextBlockStyle}"
-                                       Text="This blade generates a password." />
+                                <ToggleButton HorizontalAlignment="Center"
+                                              Margin="0,45,0,0"
+                                              IsChecked="True"
+                                              Content="Generate Password" />
+                            </StackPanel>
+
+
+
                         </controls:BladeItem>
 
                         <controls:BladeItem x:Name="ThirdBlade"
@@ -194,11 +202,16 @@
                                                Foreground="Black" />
                                 </DataTemplate>
                             </controls:BladeItem.HeaderTemplate>-->
-                            <TextBlock Margin="24"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       Style="{StaticResource SubtitleTextBlockStyle}"
-                                       Text="This blade searches for passoword." />
+                           
+                            <StackPanel Name="BladeSecond"
+                                        Orientation="Vertical">
+                                                              
+                                <TextBox Name="BladeSecondSearch" PlaceholderText="Enter Query" VerticalAlignment="Center" Margin="10,45,10,0"/>
+                                <ToggleButton HorizontalAlignment="Center"
+                                              IsChecked="True"
+                                              Margin="0,45,0,0"
+                                              Content="Search" />
+                            </StackPanel>
                         </controls:BladeItem>
 
                         <controls:BladeItem x:Name="FourthBlade"
@@ -209,12 +222,30 @@
                                             IsOpen="False"
                                             Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}"
                                             Margin="10,0,0,0">
+                            <StackPanel Name="BladeThird"
+                                        Orientation="Vertical">
+
+                                <TextBox Name="BladeThirdUsername"
+                                         PlaceholderText="Username"
+                                         VerticalAlignment="Center"
+                                         Margin="10,45,10,0" />
+                                <TextBox Name="BladeThirdPassword"
+                                         PlaceholderText="Password"
+                                         VerticalAlignment="Center"
+                                         Margin="10,45,10,0" />
+                                <TextBox Name="BladeThirdWebsite"
+                                         PlaceholderText="Website"
+                                         VerticalAlignment="Center"
+                                         Margin="10,45,10,0" />
+                                <ToggleButton Name="BladeThreeSaveButton"
+                                              HorizontalAlignment="Center"
+                                              Margin="0,25,0,20"
+                                              Content="Save"
+                                              IsChecked="True"
+                                              Click="BladeThreeSave_Click"
+                                              />
+                            </StackPanel>
                             
-                            <TextBlock Margin="24"
-                                       HorizontalAlignment="Center"
-                                       VerticalAlignment="Center"
-                                       Style="{StaticResource SubtitleTextBlockStyle}"
-                                       Text="This blade stores credentials." />
 
                         </controls:BladeItem>
 
@@ -261,7 +292,7 @@
             </RelativePanel>
         </Grid>
 
-        
+
     </Grid>
 
 
