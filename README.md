@@ -2,8 +2,6 @@
 
 Project Alpha focuses on **Password Management** locally while ensuring user privacy and data security.
 
-It is a concept, functioning and the feasibility of the project will be determined during the project development.
-
 
 ## Current Version 0.0.8
 
