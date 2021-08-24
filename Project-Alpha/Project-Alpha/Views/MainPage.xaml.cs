@@ -27,6 +27,7 @@ namespace Project_Alpha.Views
 {
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
+        Random RRandom = new Random();
         // ShellPageInfoServices UserInfo = new ShellPageInfoServices(); ; for taking binding approach
         public enum NotifyType
         {
@@ -101,6 +102,7 @@ namespace Project_Alpha.Views
                 ErrorServices.ErrorDialog(ex);
             }
         }
+
         //public void NotifyUser(string strMessage, NotifyType type)
         //{
         //    // If called from the UI thread, then update immediately.
@@ -166,11 +168,38 @@ namespace Project_Alpha.Views
 
         private void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-        private void BladeThreeSave_Click(object sender, RoutedEventArgs e)
+      
+
+        private void BladeSecondGenerate_Click(object sender, RoutedEventArgs e)
+        {
+            BladeSecondGenerateButton.IsChecked = false;
+            BladeSecondGenerateButton.IsChecked = true;
+            try
+            {
+                PasswordTB.Text = PasswordServices.Generator(11);
+            }
+            catch (Exception ex)
+            {
+                ErrorServices.ErrorDialog(ex);
+            }
+            //add slider or value picker to input value to generator
+        }
+     
+
+
+        private void BladeThreeSearch_Click(object sender, RoutedEventArgs e)
+        {
+            BladeThirdSearchButton.IsChecked = false;
+            BladeThirdSearchButton.IsChecked = true;
+
+        }
+
+        private void BladeFourSave_Click(object sender, RoutedEventArgs e)
         {
 
-            BladeThreeSaveButton.IsChecked = false;
-            BladeThreeSaveButton.IsChecked = true;
+            BladeFourSaveButton.IsChecked = false;
+            BladeFourSaveButton.IsChecked = true;
+           
 
         }
     }

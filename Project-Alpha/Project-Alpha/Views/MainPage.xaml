@@ -163,16 +163,23 @@
                                             BorderThickness="1"
                                             Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}"
                                             Style="{StaticResource BladeStyle}">
-                            <StackPanel Name="BladeFirst"
+                            <ScrollViewer VerticalScrollMode="Auto"
+                                          VerticalScrollBarVisibility="Auto">
+                            <StackPanel Name="BladeSecond"
                                         Orientation="Vertical">
-                                <TextBox Text="Password"
+                                <TextBox Name="PasswordTB"
+                                         Text="Password"
                                          HorizontalAlignment="Center" Margin="0,45,0,0"></TextBox>
-
-                                <ToggleButton HorizontalAlignment="Center"
+<!--add slider or value picker for length of password-->
+                                <ToggleButton
+                                    Name="BladeSecondGenerateButton"
+                                    HorizontalAlignment="Center"
                                               Margin="0,45,0,0"
                                               IsChecked="True"
+                                              Click="BladeSecondGenerate_Click"
                                               Content="Generate Password" />
                             </StackPanel>
+                            </ScrollViewer>
 
 
 
@@ -202,16 +209,24 @@
                                                Foreground="Black" />
                                 </DataTemplate>
                             </controls:BladeItem.HeaderTemplate>-->
-                           
-                            <StackPanel Name="BladeSecond"
-                                        Orientation="Vertical">
-                                                              
-                                <TextBox Name="BladeSecondSearch" PlaceholderText="Enter Query" VerticalAlignment="Center" Margin="10,45,10,0"/>
-                                <ToggleButton HorizontalAlignment="Center"
-                                              IsChecked="True"
-                                              Margin="0,45,0,0"
-                                              Content="Search" />
-                            </StackPanel>
+                            <ScrollViewer VerticalScrollMode="Auto"
+                                          VerticalScrollBarVisibility="Auto">
+
+                                <StackPanel Name="BladeThird"
+                                            Orientation="Vertical">
+
+                                    <TextBox Name="BladeThirdSearch"
+                                             PlaceholderText="Enter Query"
+                                             VerticalAlignment="Center"
+                                             Margin="10,45,10,0" />
+                                    <ToggleButton Name="BladeThirdSearchButton"
+                                                  HorizontalAlignment="Center"
+                                                  IsChecked="True"
+                                                  Margin="0,45,0,0"
+                                                  Click="BladeThreeSearch_Click"
+                                                  Content="Search" />
+                                </StackPanel>
+                            </ScrollViewer>
                         </controls:BladeItem>
 
                         <controls:BladeItem x:Name="FourthBlade"
@@ -222,30 +237,33 @@
                                             IsOpen="False"
                                             Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}"
                                             Margin="10,0,0,0">
-                            <StackPanel Name="BladeThird"
-                                        Orientation="Vertical">
+                            <ScrollViewer VerticalScrollMode="Auto"
+                                          VerticalScrollBarVisibility="Auto">
 
-                                <TextBox Name="BladeThirdUsername"
-                                         PlaceholderText="Username"
-                                         VerticalAlignment="Center"
-                                         Margin="10,45,10,0" />
-                                <TextBox Name="BladeThirdPassword"
-                                         PlaceholderText="Password"
-                                         VerticalAlignment="Center"
-                                         Margin="10,45,10,0" />
-                                <TextBox Name="BladeThirdWebsite"
-                                         PlaceholderText="Website"
-                                         VerticalAlignment="Center"
-                                         Margin="10,45,10,0" />
-                                <ToggleButton Name="BladeThreeSaveButton"
-                                              HorizontalAlignment="Center"
-                                              Margin="0,25,0,20"
-                                              Content="Save"
-                                              IsChecked="True"
-                                              Click="BladeThreeSave_Click"
-                                              />
-                            </StackPanel>
-                            
+                                <StackPanel Name="BladeFour"
+                                            Orientation="Vertical">
+
+                                    <TextBox Name="BladeFourUsername"
+                                             PlaceholderText="Username"
+                                             VerticalAlignment="Center"
+                                             Margin="10,45,10,0" />
+                                    <TextBox Name="BladeFourPassword"
+                                             PlaceholderText="Password"
+                                             VerticalAlignment="Center"
+                                             Margin="10,45,10,0" />
+                                    <TextBox Name="BladeFourWebsite"
+                                             PlaceholderText="Website"
+                                             VerticalAlignment="Center"
+                                             Margin="10,45,10,0" />
+                                    <ToggleButton Name="BladeFourSaveButton"
+                                                  HorizontalAlignment="Center"
+                                                  Margin="0,25,0,20"
+                                                  Content="Save"
+                                                  IsChecked="True"
+                                                  Click="BladeFourSave_Click" />
+                                </StackPanel>
+                            </ScrollViewer>
+
 
                         </controls:BladeItem>
 

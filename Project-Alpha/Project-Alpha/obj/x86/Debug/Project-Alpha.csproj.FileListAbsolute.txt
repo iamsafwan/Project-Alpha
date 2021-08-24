@@ -296,3 +296,8 @@ G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\MultipleQualifiersPer
 G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\ProjectArchitectures.txt
 G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_637552364420000000.json
 G:\project-alpha\Project-Alpha\Project-Alpha\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424707200000000.json
+G:\project-alpha local\Project-Alpha\Project-Alpha\bin\x86\Debug\Views\BlankPage1.xbf
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\BlankPage1.g.i.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\BlankPage1.g.cs
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\BlankPage1.xaml
+G:\project-alpha local\Project-Alpha\Project-Alpha\obj\x86\Debug\Views\BlankPage1.xbf

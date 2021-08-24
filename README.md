@@ -3,16 +3,13 @@
 Project Alpha focuses on **Password Management** locally while ensuring user privacy and data security.
 
 
-## Current Version 0.0.8
+## Current Version 0.1.0
 
 ### Progress:
-- [x] Added Basic Error Notify
-- [x] Added Stackable panel
-- [x] Added Basic Elements in stackable panel
-- [x] Added Basic blades
-- [x] Stackable panel add horizonal scroll
+- [x] Added Basic Password Generation Service**
 
 - *Needs bug fixes
+- **might contain bugs
 
 ![Progress Image](/Images/Progress.png)
 
