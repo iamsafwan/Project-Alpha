@@ -22,11 +22,13 @@ using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Automation.Peers;
+using Windows.ApplicationModel.DataTransfer;
 
 namespace Project_Alpha.Views
 {
     public sealed partial class MainPage : Page, INotifyPropertyChanged
     {
+        DataPackage dataPackage = new DataPackage();
         Random RRandom = new Random();
         // ShellPageInfoServices UserInfo = new ShellPageInfoServices(); ; for taking binding approach
         public enum NotifyType
@@ -176,11 +178,26 @@ namespace Project_Alpha.Views
             BladeSecondGenerateButton.IsChecked = true;
             try
             {
-                PasswordTB.Text = PasswordServices.Generator(11);
+                int number;
+
+                bool isParsable = int.TryParse(BladeSecondPasswordLength.Text, out number);
+
+                PasswordTB.Text = isParsable && number != 0 ? PasswordServices.Generator(number) : PasswordServices.Generator(11);
+                //Console.WriteLine("Could not be parsed.");
+
+                // add for BladeSecondPassTypeCheck based generation aka easy to remember password
+
+                PasswordTB.Visibility = Visibility.Visible;
+                CopyButton.Visibility = Visibility.Visible;
+              
+                PasswordTB.MaxWidth = SecondBlade.Width - CopyButton.Width;
             }
             catch (Exception ex)
             {
                 ErrorServices.ErrorDialog(ex);
+                CopyButton.Visibility = Visibility.Collapsed;
+                PasswordTB.Visibility = Visibility.Visible;
+                PasswordTB.Text = "Error";
             }
             //add slider or value picker to input value to generator
         }
@@ -201,6 +218,68 @@ namespace Project_Alpha.Views
             BladeFourSaveButton.IsChecked = true;
            
 
+        }
+
+        private void CopyButton_Click(object sender, RoutedEventArgs e)
+        {
+            dataPackage.SetText(PasswordTB.Text);
+            Clipboard.SetContent(dataPackage);
+
+        }
+
+        private void BladeSecondSimplePasswordButton_Click(object sender, RoutedEventArgs e)
+        {
+            BladeSecondSimplePasswordButton.IsChecked = false;
+            BladeSecondSimplePasswordButton.IsChecked = true;
+
+            BladeSecondAdvancePasswordButton.IsChecked = false;
+            if (BladeSecondSimplePasswordButton.IsChecked != false)
+            {
+                BladeSecondPassLengthCheck.Visibility = Visibility.Collapsed;
+               
+                BladeSecondPasswordLength.Visibility = Visibility.Collapsed;
+                BladeSecondPassLengthCheck.IsEnabled = false;
+                BladeSecondPasswordLength.IsEnabled = false;
+                //BladeSecondPassTypeCheck.Visibility = Visibility.Collapsed;   Implement later
+                //BladeSecondPassTypeCheck.IsEnabled = false;
+            }
+
+        }
+
+        private void BladeSecondAdvancePasswordButton_Click(object sender, RoutedEventArgs e)
+        {
+            BladeSecondAdvancePasswordButton.IsChecked = false;
+            BladeSecondAdvancePasswordButton.IsChecked = true;
+
+            BladeSecondSimplePasswordButton.IsChecked = false;
+
+            if (BladeSecondAdvancePasswordButton.IsChecked != false)
+            {
+                BladeSecondPasswordLength.Visibility = Visibility.Visible;
+                BladeSecondPassLengthCheck.Visibility = Visibility.Visible;
+                BladeSecondPassLengthCheck.IsEnabled = true;
+                //BladeSecondPassTypeCheck.Visibility = Visibility.Visible;
+
+            }
+
+            //add logic for BladeSecondPassTypeCheck aka easy to remember password
+
+        }
+
+        private void BladeSecondPassLengthCheck_Click(object sender, RoutedEventArgs e)
+        {
+            
+            if ((bool)BladeSecondPassLengthCheck.IsChecked)
+            {
+                BladeSecondPasswordLength.IsEnabled = true;
+              
+
+            }
+            if (BladeSecondPassLengthCheck.IsChecked == false)
+            {
+                BladeSecondPasswordLength.IsEnabled = false;
+                
+            }
         }
     }
 }

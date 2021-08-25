@@ -163,22 +163,84 @@
                                             BorderThickness="1"
                                             Background="{ThemeResource SystemControlChromeMediumAcrylicWindowMediumBrush}"
                                             Style="{StaticResource BladeStyle}">
-                            <ScrollViewer VerticalScrollMode="Auto"
+                          <ScrollViewer VerticalScrollMode="Auto"
                                           VerticalScrollBarVisibility="Auto">
-                            <StackPanel Name="BladeSecond"
-                                        Orientation="Vertical">
-                                <TextBox Name="PasswordTB"
-                                         Text="Password"
-                                         HorizontalAlignment="Center" Margin="0,45,0,0"></TextBox>
-<!--add slider or value picker for length of password-->
-                                <ToggleButton
-                                    Name="BladeSecondGenerateButton"
-                                    HorizontalAlignment="Center"
-                                              Margin="0,45,0,0"
-                                              IsChecked="True"
-                                              Click="BladeSecondGenerate_Click"
-                                              Content="Generate Password" />
-                            </StackPanel>
+                                <StackPanel Name="BladeSecond">
+                                    <StackPanel HorizontalAlignment="Center" Orientation="Horizontal"  Margin="0,50,0,0">
+
+
+                                        <TextBox Name="PasswordTB"
+                                                 Text="Password"
+                                                 Visibility="Collapsed"
+                                                 TextAlignment="Center"
+                                                
+                                               
+                                                 VerticalAlignment="Center">
+
+
+                                        </TextBox>
+                                        <Button Name="CopyButton" Click="CopyButton_Click" Visibility="Collapsed"
+                                                Width="44">
+                                            <SymbolIcon Name="CopySymbol" Symbol="Copy" />
+                                        </Button>
+                                        
+                                    </StackPanel>
+                                    <!--add slider or value picker for length of password-->
+                                    <StackPanel  Orientation="Horizontal"
+                                                 HorizontalAlignment="Center">
+
+
+                                        <ToggleButton Name="BladeSecondSimplePasswordButton"
+                                                      HorizontalAlignment="Center"
+                                                      Margin="10,50,10,0"
+                                                      IsChecked="True"
+                                                      Click="BladeSecondSimplePasswordButton_Click"
+                                                      Content="Basic"
+                                                      Visibility="Visible" />
+
+
+                                        <ToggleButton Name="BladeSecondAdvancePasswordButton"
+                                                      HorizontalAlignment="Center"
+                                                      Margin="10,50,10,0"
+                                                      IsChecked="False"
+                                                      Click="BladeSecondAdvancePasswordButton_Click"
+                                                      Content="Advanced" />
+                                      
+                                    </StackPanel>
+                                    <StackPanel  Orientation="Horizontal"
+                                                 Padding="0,10,0,0"
+                                                 HorizontalAlignment="Center">
+                                        <CheckBox x:Name="BladeSecondPassLengthCheck"
+                                                  Margin="0,0,-90,0"
+                                                  IsChecked="False"
+                                                  IsEnabled="False"
+                                                  Click="BladeSecondPassLengthCheck_Click"
+                                                  Visibility="Collapsed" />
+
+                                        <TextBox Name="BladeSecondPasswordLength"
+                                                   PlaceholderText="Length"
+                                                 IsEnabled="False"
+                                                 InputScope="Number"
+                                                 Margin="0,0,0,0"
+                                                 VerticalAlignment="Center"
+                                                 Visibility="Collapsed"></TextBox>
+                                        
+                                        <!--<CheckBox x:Name="BladeSecondPassTypeCheck"
+                                                  Content="Easy to Remember?"
+                                                  IsChecked="False" Visibility="Collapsed"></CheckBox>-->
+                                    </StackPanel>
+                                    <StackPanel  Orientation="Vertical">
+
+
+                                        <ToggleButton Name="BladeSecondGenerateButton"
+                                                      HorizontalAlignment="Center"
+                                                      Margin="0,25,0,0"
+                                                      IsChecked="True"
+                                                      Click="BladeSecondGenerate_Click"
+                                                      Content="Generate Password" />
+                                    </StackPanel>
+                                </StackPanel>
+
                             </ScrollViewer>
 
 

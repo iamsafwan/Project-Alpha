@@ -19,14 +19,15 @@ namespace Project_Alpha.Services
         private static readonly string[] Capital_Alphabets = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
         private static readonly string[] Small_Alphabets = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
         private static readonly string[] Numbers = { "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" };
-        private static readonly string[] SpecialCharacters = { " ", "!", "/", "#", "@", "$", "%", "^", "&", "_", "+", "=", "-", "'", "(", ")", "{", "}", "[", "]", "\\", "|", ",", "<", ">", ".", "?", ";", ":", "`", "~", "X", "Y", "Z" };
+        private static readonly string[] SpecialCharacters = { "\"", " ", "!", "/", "#", "@", "$", "%", "^", "&", "_", "+", "=", "-", "'", "(", ")", "{", "}", "[", "]", "\\", "|", ",", "<", ">", ".", "?", ";", ":", "`", "~", "X", "Y", "Z" };
 
         //alternatives to generating random strings
         //public static readonly string[] Characters = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", " ", "!", "/", "#", "@", "$", "%", "^", "&", "_", "+", "=", "-", "'", "(", ")", "{", "}", "[", "]", "\\", "|", ",", "<", ">", ".", "?", ";", ":", "`", "~" };
 
         //private static readonly string[] RandomFunction = { "CARandom", "SARandom", "SPRandom", "NRandom", "CARandom", "SARandom", "SPRandom", "NRandom" };
-        //look how to add """
 
+       
+        //add memorable password generator
 
         //public void randomfunctionselector()
         //{
