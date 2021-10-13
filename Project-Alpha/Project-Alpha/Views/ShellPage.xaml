@@ -36,7 +36,7 @@
             <winui:NavigationViewItem x:Uid="Shell_Tabbed" Icon="Document" helpers:NavHelper.NavigateTo="views:TabbedPage" />
             <winui:NavigationViewItem x:Uid="Shell_WebView" Icon="Globe" helpers:NavHelper.NavigateTo="views:WebViewPage" />-->
         </winui:NavigationView.MenuItems>
-        <i:Interaction.Behaviors>
+        <!--<i:Interaction.Behaviors>
             <behaviors:NavigationViewHeaderBehavior
                 DefaultHeader="{x:Bind Selected.Content, Mode=OneWay}">
                 <behaviors:NavigationViewHeaderBehavior.DefaultHeaderTemplate>
@@ -53,7 +53,7 @@
                     </DataTemplate>
                 </behaviors:NavigationViewHeaderBehavior.DefaultHeaderTemplate>
             </behaviors:NavigationViewHeaderBehavior>
-        </i:Interaction.Behaviors>
+        </i:Interaction.Behaviors>-->
         
         <Grid>
             <Frame x:Name="shellFrame" />

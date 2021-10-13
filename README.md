@@ -6,10 +6,9 @@ Project Alpha focuses on **Password Management** locally while ensuring user pri
 ## Current Version 0.1.1
 
 ### Progress:
+- [x] Shellpage improvement**
 - [x] Improved Basic Password Generation Service**
-- [x] Added Password Copy to Clipboard
 - [x] Added Elements to Generate Password Blade**
-- [x] Added Length Parameter to Password Genertion Service
 
 - *Needs bug fixes
 - **Might contain bugs
